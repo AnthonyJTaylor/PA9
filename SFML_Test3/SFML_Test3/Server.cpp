@@ -4,7 +4,7 @@
 const int port = 303;
 std::string ip("192.168.0.100");
 sf::TcpSocket socket;
-const std::string msg("package_in");
+const std::string msg("go");
 
 void server(void)
 {
